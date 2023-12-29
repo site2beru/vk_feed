@@ -28,8 +28,8 @@ function ru_month($timestamp) {
     return $day . ' ' . $month . ' ' . $year . ' в ' . $hour . ':' . $minute;
 }
 
-$access_token = 'efad1089efad1089efad108938ecbb1fc4eefadefad10898a9bd12d05a2127be3df3dbe';
-$group_id = 55100378;
+$access_token = '';
+$group_id = ;
 $url = "https://api.vk.com/method/wall.get?owner_id=-{$group_id}&access_token={$access_token}&v=5.131&count=10";
 
 $ch = curl_init();
@@ -77,8 +77,8 @@ if (isset($response['response']['items'])) {
   <script>
     var offset = 10; // сколько постов уже выведено изначально
     var count = 10; // сколько постов подгружать по кнопке
-    var access_token = 'efad1089efad1089efad108938ecbb1fc4eefadefad10898a9bd12d05a2127be3df3dbe';
-    var group_id = 55100378;
+    var access_token = '';
+    var group_id = ;
     
     // Дата в человеческом формате
     
