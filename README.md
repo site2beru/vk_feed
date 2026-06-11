@@ -1,5 +1,4 @@
 # vk_feed
-VK community feed to the website page
 
 Автоматическая трансляция постов из сообщества ВКонтакте на страницу сайта.
 
